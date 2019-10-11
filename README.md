@@ -1,10 +1,10 @@
 # DEF CON 27 Blue Team Village Badge #
 
-Only addon docs are available, the remainder will be published shortly.
+Full badge write-up, media, badge candy and updates (1/2):
+<https://fyrmassociates.com/blog/2019/06/08/defcon-27-blue-team-village-badge/>
 
-Full badge write-up, media, badge candy and updates:  <https://fyrmassociates.com/defcon-27-blue-team-village-badge>
-
-There are likely to be badge updates pushed out during DEF CON.  More on that next week.
+Badge wrap-up post (2/2):
+<https://fyrmassociates.com/blog/2019/10/10/defcon-27-blue-team-village-badge-wrapup/>
 
 # Writing Addons #
 
@@ -44,6 +44,7 @@ To exit the wifi network, kill wpa_supplicant, dhclient and run
 `/badge/bin/badge_mesh_start.sh`
 
 ## Addon Ideas ##
+* tail log_all_simple.txt (honeypot log) to screen, flash LEDs on any new honeypot connections
 * Custom bling modes (write directly to framebuffer /dev/fb1, or use tput)
 * Avahi - abusing service broadcasts as a comms channel (*cough* the badge might already be doing that)
 * Interfacing with hardware SAOs over i2c
