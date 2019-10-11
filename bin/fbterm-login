@@ -1,0 +1,35 @@
+#!/bin/bash
+# example: fbterm-login fb1 tty1
+export FRAMEBUFFER=/dev/$1
+##exec /usr/bin/fbterm -r 90 -n "DejaVu Sans Mono" -- /badge/bin/menu_main.sh < /dev/$2
+##exec /usr/bin/fbterm -r 90 -n "Px437 IBM CGA" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "Zygo" -- /badge/bin/menu_main.sh < /dev/$2
+
+#exec /usr/bin/fbterm -r 90 -n "Px437 IBM CGA" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus AmstradPC1512-2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus AmstradPC1512" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM BIOS-2x" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM BIOS-2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM BIOS" -- /badge/bin/menu_main.sh < /dev/$2
+exec /usr/bin/fbterm -r 90 -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM CGA-2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM CGAthin-2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM CGAthin" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM CGA" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM EGA8-2x" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM EGA8" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM EGA9-2x" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM EGA9" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM MDA" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM VGA8-2x" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM VGA8" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM VGA9-2x" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus IBM VGA9" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus TandyNew 225-2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus TandyNew 225" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus TandyNew TV 2y" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus TandyNew TV" -- /badge/bin/menu_main.sh < /dev/$2
+#exec /usr/bin/fbterm -r 90 -n "PxPlus VGA SquarePx" -- /badge/bin/menu_main.sh < /dev/$2
+
+##exec /usr/bin/fbterm -v < /dev/$2
+
