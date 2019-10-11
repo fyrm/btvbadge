@@ -208,7 +208,7 @@ def interrupt_handler(channel):
 	
 	if channel == 19:
 		#print("19 - A")
-		yo_dj_spin_that_shit("A")
+		yo_dj_spin_that_ish("A")
  		time.sleep(.01)
 	elif channel == 26:
 		#print("26 - START")
@@ -220,23 +220,23 @@ def interrupt_handler(channel):
 		time.sleep(.01)
 	elif channel == 13:
 		#print("13 - UP")
-		yo_dj_spin_that_shit("UP")
+		yo_dj_spin_that_ish("UP")
 		time.sleep(.01)
 	elif channel == 6:
 		#print("6 - B")
-		yo_dj_spin_that_shit("B")
+		yo_dj_spin_that_ish("B")
 		time.sleep(.01)
 	elif channel == 21:
 		#print("21 - LEFT")
-		yo_dj_spin_that_shit("LEFT")
+		yo_dj_spin_that_ish("LEFT")
 		time.sleep(.01)
 	elif channel == 16:
 		#print("16 - DOWN")
-		yo_dj_spin_that_shit("DOWN")
+		yo_dj_spin_that_ish("DOWN")
 		time.sleep(.01)
 	elif channel == 12:
 		#print("12 - RIGHT")
-		yo_dj_spin_that_shit("RIGHT")
+		yo_dj_spin_that_ish("RIGHT")
 		time.sleep(.01)
 	elif channel == 3:
 		#print("3 - POWER")
@@ -262,7 +262,7 @@ GPIO.add_event_detect(5, GPIO.RISING, callback=interrupt_handler, bouncetime=200
 #
 #	Functions based on button pushed
 #
-def yo_dj_spin_that_shit(button):
+def yo_dj_spin_that_ish(button):
 	try:
 		global GO_HOME_YOURE_DRUNK
 
@@ -302,7 +302,7 @@ def yo_dj_spin_that_shit(button):
 			# this really should not happen, so quit just in case
 			GO_HOME_YOURE_DRUNK = True
 	except Exception as e:
-		#print "in_the_club::yo_dj_spin_that_shit(): EXCEPTION"
+		#print "in_the_club::yo_dj_spin_that_ish(): EXCEPTION"
 		#print(e)
 		#traceback.print_exc()
 		pass

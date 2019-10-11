@@ -1,9 +1,11 @@
 # DEF CON 27 Blue Team Village Badge #
 
 Full badge write-up, media, badge candy and updates (1/2):
+
 <https://fyrmassociates.com/blog/2019/06/08/defcon-27-blue-team-village-badge/>
 
 Badge wrap-up post (2/2):
+
 <https://fyrmassociates.com/blog/2019/10/10/defcon-27-blue-team-village-badge-wrapup/>
 
 # Writing Addons #
