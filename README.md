@@ -8,6 +8,13 @@ Badge wrap-up post (2/2):
 
 <https://fyrmassociates.com/blog/2019/10/10/defcon-27-blue-team-village-badge-wrapup/>
 
+Disk image:
+
+<https://fyrmassociates.com/tools/btvbadge-20191023.img.bz2>
+
+btvbadge-20191023.img SHA512 e2fc16813b73d72ba0059c317b8a1c3bea26f12fc07ab38e62ab80c3977ab56ddb12bc94f3122c53f0040b2b1fbc2ac371bf2d93a298e55cd6b4a97d22066214
+
+
 # Writing Addons #
 
 The idea behind an addon (not to be confused with the SAO hardware standard) is to extend badge functionality in a slightly cleaner fashion than modifying existing spaghetti^H^H^H^H^H^H^H^H^H code.
